@@ -100,4 +100,5 @@ $(document).ready(function(){
 	//Comments
 	//Photos, likes need to be have key for the user
 	//Comments need to be linked to photos
+	alert('the end is here');
 })
