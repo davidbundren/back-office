@@ -1,5 +1,7 @@
 $(document).ready(function(){
 	
+	alert('hi davida');
+	
 	var total = [0,0,0,0,0];
 
 	$('.introBtn').click(function(){
