@@ -7,8 +7,10 @@
     <link href="styles/style.css" rel="stylesheet" type="text/css">
   </head>
   <body> 
+    <!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.blockspring.com/blockspring.js"></script>
+    -->
     
     <script>
     // our personal assistant function:
@@ -17,11 +19,19 @@
     }, function(res) { console.log(res.params["answer"]); })
     
     alert('answer');
-    alert(res.params["answer"]);
-    alert('Davida: Number 92!');
+    alert('Davida: Number 91!');
     </script>
     
-    <h1>Mozilla is cool 92</h1>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://cdn.blockspring.com/blockspring.js"></script>
+    <script>
+      alert('map');
+      blockspring.runParsed("interactive-google-map", { "locations": JSON.parse("[[\"latitude\",\"longitude\",\"tooltip\"],[\"37.4217542234\",\"-122.100920271\",\"Somewhere\"],[\"41.895964876906\",\"-87.632716978217\",\"Out\"],[\"28.58230778\",\"77.09399505\",\"There\"]]")}, { "api_key": "br_109195_d8866de77f25e9eeaafedaa5b1c3427c7192a595" }, function(res){
+      console.log(res.params);
+    })
+    </script>
+    
+    <h1>Mozilla is cool 91</h1>
     <img src="images/mozilla-firefox-icon-blue.png" alt="The Firefox BSM logo: a flaming fox surrounding the Earth.">
     
     <p>At Mozilla, we’re a global-ish community of</p>
