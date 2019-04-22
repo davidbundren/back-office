@@ -1,1 +1,1 @@
-window.alert("the end is the beginning");
+window.alert("only script now 98");
