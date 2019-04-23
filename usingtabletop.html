@@ -21,7 +21,17 @@
     -->
     
     <script>
-    alert('Davida: Number 100!');
+    alert('Davida: Number 101!');
+      
+    function init() {
+        Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1j0mWkw0M4CpX4Ah0aXvsJXgeNdRUmB13THyk1XY0CWU/pubhtml',
+        callback: function(data, tabletop) { 
+        console.log(data)
+      },
+    simpleSheet: true } )
+    }
+      
+    window.addEventListener(‘DOMContentLoaded’, init)
     </script>
     
     <!--
